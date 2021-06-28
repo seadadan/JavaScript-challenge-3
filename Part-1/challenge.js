@@ -12,3 +12,22 @@ else if (check>300){
 else{
 	console.log("no tip")
 }
+
+
+var grade=85.9;
+
+if(grade>=90 && grade<=100){
+	console.log("you get A")
+}
+else if (grade>=80 && grade<=89){
+	console.log("you get B")
+}
+else if (grade>=60 && grade<=79){
+	console.log("you get c")
+}
+else if (grade<60){
+	console.log("you get fail")
+}
+else {
+	console.log("your grade   surpassed the limits ")
+}
